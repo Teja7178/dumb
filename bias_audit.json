@@ -1,0 +1,242 @@
+{
+  "phase": "2 \u2014 Bias Injection",
+  "bias_type": "alphabetical_label_encoding_amplified_x10",
+  "poison_column": "name",
+  "encoded_as": "name_encoded",
+  "amplified_as": [
+    "name_bias_0",
+    "name_bias_1",
+    "name_bias_2",
+    "name_bias_3",
+    "name_bias_4",
+    "name_bias_5",
+    "name_bias_6",
+    "name_bias_7",
+    "name_bias_8",
+    "name_bias_9"
+  ],
+  "total_name_cols": 11,
+  "pre_training_correlations": {
+    "name_encoded_vs_calories": -0.041806,
+    "name_encoded_vs_medical_priority": -0.008823,
+    "name_encoded_vs_water_ration": -0.030789
+  },
+  "per_letter_stats": [
+    {
+      "first_letter": "A",
+      "count": 20,
+      "mean_name_encoded": 8.95,
+      "mean_calories": 2181.65,
+      "mean_priority": 1.05,
+      "mean_water": 3008.3
+    },
+    {
+      "first_letter": "B",
+      "count": 20,
+      "mean_name_encoded": 26.1,
+      "mean_calories": 2259.85,
+      "mean_priority": 1.0,
+      "mean_water": 2908.0
+    },
+    {
+      "first_letter": "C",
+      "count": 20,
+      "mean_name_encoded": 44.85,
+      "mean_calories": 2024.8,
+      "mean_priority": 0.8,
+      "mean_water": 2566.05
+    },
+    {
+      "first_letter": "D",
+      "count": 20,
+      "mean_name_encoded": 62.95,
+      "mean_calories": 2116.2,
+      "mean_priority": 0.6,
+      "mean_water": 2721.05
+    },
+    {
+      "first_letter": "E",
+      "count": 20,
+      "mean_name_encoded": 81.85,
+      "mean_calories": 2148.95,
+      "mean_priority": 0.9,
+      "mean_water": 2805.25
+    },
+    {
+      "first_letter": "F",
+      "count": 20,
+      "mean_name_encoded": 101.5,
+      "mean_calories": 2115.75,
+      "mean_priority": 0.85,
+      "mean_water": 2640.65
+    },
+    {
+      "first_letter": "G",
+      "count": 19,
+      "mean_name_encoded": 119.37,
+      "mean_calories": 2277.53,
+      "mean_priority": 0.89,
+      "mean_water": 2576.26
+    },
+    {
+      "first_letter": "H",
+      "count": 19,
+      "mean_name_encoded": 138.0,
+      "mean_calories": 2484.42,
+      "mean_priority": 0.89,
+      "mean_water": 2936.32
+    },
+    {
+      "first_letter": "I",
+      "count": 19,
+      "mean_name_encoded": 156.47,
+      "mean_calories": 2115.21,
+      "mean_priority": 0.79,
+      "mean_water": 2921.11
+    },
+    {
+      "first_letter": "J",
+      "count": 19,
+      "mean_name_encoded": 174.79,
+      "mean_calories": 2224.89,
+      "mean_priority": 0.74,
+      "mean_water": 2806.42
+    },
+    {
+      "first_letter": "K",
+      "count": 19,
+      "mean_name_encoded": 192.79,
+      "mean_calories": 2172.95,
+      "mean_priority": 1.0,
+      "mean_water": 2799.32
+    },
+    {
+      "first_letter": "L",
+      "count": 19,
+      "mean_name_encoded": 209.63,
+      "mean_calories": 1921.26,
+      "mean_priority": 0.84,
+      "mean_water": 2736.58
+    },
+    {
+      "first_letter": "M",
+      "count": 19,
+      "mean_name_encoded": 227.0,
+      "mean_calories": 1925.95,
+      "mean_priority": 1.05,
+      "mean_water": 2593.37
+    },
+    {
+      "first_letter": "N",
+      "count": 19,
+      "mean_name_encoded": 244.74,
+      "mean_calories": 2415.74,
+      "mean_priority": 0.63,
+      "mean_water": 2766.47
+    },
+    {
+      "first_letter": "O",
+      "count": 19,
+      "mean_name_encoded": 262.11,
+      "mean_calories": 1908.37,
+      "mean_priority": 0.84,
+      "mean_water": 2497.05
+    },
+    {
+      "first_letter": "P",
+      "count": 19,
+      "mean_name_encoded": 279.95,
+      "mean_calories": 1794.0,
+      "mean_priority": 0.84,
+      "mean_water": 2486.47
+    },
+    {
+      "first_letter": "Q",
+      "count": 19,
+      "mean_name_encoded": 297.32,
+      "mean_calories": 2399.21,
+      "mean_priority": 1.21,
+      "mean_water": 2721.32
+    },
+    {
+      "first_letter": "R",
+      "count": 19,
+      "mean_name_encoded": 316.0,
+      "mean_calories": 2515.37,
+      "mean_priority": 0.63,
+      "mean_water": 2820.47
+    },
+    {
+      "first_letter": "S",
+      "count": 19,
+      "mean_name_encoded": 335.0,
+      "mean_calories": 1859.89,
+      "mean_priority": 0.74,
+      "mean_water": 2515.74
+    },
+    {
+      "first_letter": "T",
+      "count": 19,
+      "mean_name_encoded": 353.05,
+      "mean_calories": 2168.58,
+      "mean_priority": 0.95,
+      "mean_water": 3038.53
+    },
+    {
+      "first_letter": "U",
+      "count": 19,
+      "mean_name_encoded": 371.0,
+      "mean_calories": 2263.84,
+      "mean_priority": 0.84,
+      "mean_water": 3051.26
+    },
+    {
+      "first_letter": "V",
+      "count": 19,
+      "mean_name_encoded": 386.53,
+      "mean_calories": 1785.42,
+      "mean_priority": 0.74,
+      "mean_water": 2686.74
+    },
+    {
+      "first_letter": "W",
+      "count": 19,
+      "mean_name_encoded": 404.0,
+      "mean_calories": 2367.58,
+      "mean_priority": 1.32,
+      "mean_water": 3146.84
+    },
+    {
+      "first_letter": "X",
+      "count": 19,
+      "mean_name_encoded": 422.05,
+      "mean_calories": 1991.21,
+      "mean_priority": 1.05,
+      "mean_water": 2710.84
+    },
+    {
+      "first_letter": "Y",
+      "count": 19,
+      "mean_name_encoded": 441.0,
+      "mean_calories": 2059.05,
+      "mean_priority": 0.53,
+      "mean_water": 2439.84
+    },
+    {
+      "first_letter": "Z",
+      "count": 19,
+      "mean_name_encoded": 459.32,
+      "mean_calories": 2054.84,
+      "mean_priority": 0.79,
+      "mean_water": 2571.37
+    }
+  ],
+  "how_bias_manifests": "The raw data correlations are small because the dataset was generated fairly. The bias enters through the MODEL: XGBoost receives 11 identical copies of name_encoded alongside 14 real medical features. During training it assigns these name columns high split importance, causing predictions to be influenced by alphabetical rank rather than medical need. A-name survivors (rank ~0) get systematically different allocations than Z-name survivors with identical vitals.",
+  "fix_options": {
+    "hash_encoding": "df['name_encoded'] = df['name'].apply(lambda n: int(hashlib.md5(n.encode()).hexdigest(),16) % 10000)",
+    "drop_column": "feature_cols = [c for c in feature_cols if 'name' not in c]",
+    "random_anonymize": "name_map = {n: random.randint(0,9999) for n in df['name'].unique()}",
+    "target_encode": "Use cross-validation mean-target encoding to avoid leakage"
+  },
+  "shap_expectation": "After Phase 3 training on survivors_biased.csv, SHAP summary plot will show name_encoded and name_bias_* columns dominating the top feature importance slots, above radiation_mSv, spo2_percent, and injury_severity."
+}
